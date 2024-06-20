@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    background-image: linear-gradient(to right, #9d50bb, #6e48aa);
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    padding-right: 10px;
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #50bb9d;
+}
+
+.Home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #50bb9d;
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #50bb9d ;
+    border: 2px solid 00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29; 
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #50bb9d;
+}
+.header img{
+    display: block;
+    height: 75px;
+    width: 75px; 
+    padding-left: 10px;   
+}
+
+.About h1{
+   display: flex;
+   justify-content: left;
+   font-size: 70px;
+   padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+.About p{
+    font-size: 18px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.img-container img{
+    width: 100px;
+    height: 100px;
+    gap: 300px;
+    padding: 20,20,20,20;
+    border-radius: 0%;
+}
+.Technologies h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-self: center;
+}
