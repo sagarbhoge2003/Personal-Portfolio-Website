@@ -112,7 +112,7 @@ body{
 
 .About h1{
    display: flex;
-   justify-content: left;
+   justify-content: center;
    font-size: 70px;
    padding-left: 100px;
     padding-right: 100px;
@@ -131,11 +131,55 @@ body{
     gap: 300px;
     padding: 20,20,20,20;
     border-radius: 0%;
+    justify-content: center;
+    position: static;
 }
 .Technologies h2{
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 50px;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    font-size: 35px;
+    padding-left: 100px;
+     padding-right: 100px;
+     padding-bottom: 50px;
+     padding-top: 150px;
+ 
+}
+
+.Projects h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    padding-left: 100px;
+     padding-right: 100px;
+     padding-bottom: 50px;
+     padding-top: 150px;
+}
+
+.Projects h2{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        color: #50bb9d;
+
+
+}
+
+.contact h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    padding-left: 100px;
+     padding-right: 100px;
+     padding-bottom: 50px;
+     padding-top: 150px;
+}
+.contact img-logo{
+    width: 100px;
+    height: 100px;
+    gap: 300px;
+    padding: 20,20,20,20;
+    border-radius: 0%;
+    justify-content: center;
+    position: static;
+
 }
